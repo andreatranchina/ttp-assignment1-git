@@ -49,4 +49,14 @@
     padding: 1rem;
     position: relative;
     top: 2rem;
+    background-color: red;
+    
 }
+    .cta a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .nav-donate a {
+        color: red;
+    }
