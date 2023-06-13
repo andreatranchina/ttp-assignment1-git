@@ -2,14 +2,21 @@
     margin: 0;
 }
 
+body{
+    background-color: #FFF8DE;
+}
+
 .navbar{
     color: white;
-    background-color: black;
+    background-color: #44613d;
     margin: 0;
     width: 100%;
     height: 3rem;
     display: flex;
-
+    border-bottom: solid;
+    border-width: 4px;
+    border-color: black;
+    gap: 20%;
 }
 
 .nav-name{
@@ -20,15 +27,14 @@
 
 .nav-donate{
     align-self: center;
-    position: relative;
-    left: 70%;
+    position: absolute;
+    right: 2%;
 }
 
 .header{
-    margin: 2rem;
+    margin: 1rem;
     padding: 2rem;
     text-align: center;
-
 }
 
 .heading{
@@ -40,23 +46,52 @@
 
 .message{
     font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .cta{
     border: solid;
+    border-color: black;
+    border-width: 3px;
     border-radius: 1rem;
     font-size: 2rem;
     padding: 1rem;
     position: relative;
-    top: 2rem;
-    background-color: red;
-    
+    display: inline-block;
+    background-color: #44613d;
+    width: 60%; 
+    color: white;
+    text-decoration: none;
+    transition: 500ms ease;
+    font-weight: 700;
 }
-    .cta a {
-        color: white;
-        text-decoration: none;
-    }
     
-    .nav-donate a {
-        color: red;
-    }
+.nav-donate a {
+    color: white;
+    text-decoration: none;
+}
+
+.images-container{
+    margin: 1rem;
+}
+
+.image1{
+    width: 20rem;
+    height: 16rem;
+    padding: 2rem;
+    border-radius: 30%;
+}
+
+.image2{
+    width: 20rem;
+    height: 16rem;
+    padding: 2rem;
+    border-radius: 30%;
+}
+
+.cta:hover{
+    border-color:#44613d;
+    background-color:#FFF8DE;
+    color: #44613d;
+    transition: 500ms ease;
+}
