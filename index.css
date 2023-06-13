@@ -6,6 +6,7 @@ body{
     background-color: #FFF8DE;
 }
 
+/**********navbar CSS*************/
 .navbar{
     color: white;
     background-color: #44613d;
@@ -40,6 +41,8 @@ body{
     color: white;
     text-decoration: none;
 }
+/************end navbar CSS*********/
+
 
 .header{
     margin: 1rem;
