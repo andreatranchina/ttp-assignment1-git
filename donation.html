@@ -3,7 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Donation Page</title>
   </head>
-  <body></body>
+  <body>
+    <header></header>
+    <main>
+      <form action="">
+        <!-- Here we will get the name, an email -->
+        <fieldset id="user-info">
+          <label for="first-name">FIRST NAME</label>
+          <input type="text" name="" id="first-name" />
+
+          <label for="last-name">LAST NAME</label>
+          <input type="text" name="" id="last-name" />
+
+          <label for="email">EMAIL</label>
+          <input type="email" name="" id="email" />
+        </fieldset>
+        <!-- Here the adress -->
+        <fieldset id="user-address">
+          <label for="street-adress">STREET ADDRESS</label>
+          <input type="text" name="" id="street-adress" />
+
+          <label for="city">CITY</label>
+          <input type="text" name="" id="city" />
+
+          <label for="state">STATE</label>
+          <input type="text" name="" id="state" />
+
+          <label for="zip-code">ZIP CODE</label>
+          <input type="number" name="" id="zip-code" />
+        </fieldset>
+        <!-- Here we collect the payment information of the client -->
+        <fieldset id="user-donation">
+          <label for="amount">AMOUNT</label>
+          <input type="number" name="" id="amount" />
+        </fieldset>
+        <button type="submit">PAY WITH PAYPAL</button>
+      </form>
+    </main>
+  </body>
 </html>
